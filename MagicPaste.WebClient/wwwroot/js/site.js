@@ -15,3 +15,9 @@ $("#btnPublish").click(function () {
 connection.on("ReceiveData", (msg) => {
     $("#messagesList").append($("<li class='list-group-item list-group-item-info'>").html(msg));
 });
+
+$('#inputData').keypress(function (event) {
+    if (event.keyCode == 13) {
+        $('#btnPublish').click();
+    }
+});
