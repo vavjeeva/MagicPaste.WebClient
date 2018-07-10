@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Magic Paste";
+}
+
+<div class="container" id="divMessage">
+    <div class="row">
+        <div style="height:600px">
+            <div class="panel panel-primary">
+                <div class="panel-heading" id="accordion">
+                    <span class="glyphicon glyphicon-paste">&nbsp;</span>Magic Paste
+                </div>
+            </div>
+            <div class="panel-group">
+                <div class="panel-collapse" style="height:550px">
+                    <ul id="messagesList" class="list-group"></ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="inputData" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                        <span class="input-group-btn">
+                            &nbsp;<input type="button" class="btn btn-warning btn-sm" id="btnPublish" value="Send It" style="margin-right:10px" />
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Reference the SignalR library. -->
+<script src="~/lib/signalr/signalr.js"></script>

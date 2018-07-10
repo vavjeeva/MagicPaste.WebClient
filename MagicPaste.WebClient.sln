@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicPaste.WebClient", "MagicPaste.WebClient\MagicPaste.WebClient.csproj", "{B40B5CB9-0049-43A6-8462-65FEC0C797FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B40B5CB9-0049-43A6-8462-65FEC0C797FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40B5CB9-0049-43A6-8462-65FEC0C797FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40B5CB9-0049-43A6-8462-65FEC0C797FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40B5CB9-0049-43A6-8462-65FEC0C797FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FB28F51-6B0F-48E0-A8E2-4CC7DA5D0E75}
+	EndGlobalSection
+EndGlobal
